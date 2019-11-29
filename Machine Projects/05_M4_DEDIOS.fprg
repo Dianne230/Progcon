@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-29 10:26:24 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMTRDMzQ7MjAxOS0xMS0yOTswOTo1NDowNSBBTTsyMjA5"/>
+        <attribute name="edited" value="UmFtcztMQUIzMTRDMzQ7MjAxOS0xMS0yOTsxMDoyNjoyNCBBTTsxOzIzMDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Rate" type="Integer" array="False" size=""/>
+            <declare name="Grade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter any rate&quot;" newline="True"/>
+            <input variable="Rate"/>
+            <if expression="Rate &gt;= 95">
+                <then>
+                    <output expression="&quot;The equivalent grade is 4.0&quot;" newline="True"/>
+                    <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                    <declare name="Answer" type="String" array="False" size=""/>
+                    <input variable="Answer"/>
+                    <if expression="Answer == &quot;yes&quot;">
+                        <then>
+                            <output expression="&quot;Let's go back  to the start&quot;" newline="True"/>
+                            <call expression="Main"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Thank you&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="Rate &gt;=91">
+                        <then>
+                            <output expression="&quot;The equivalent grade is 3.5&quot;" newline="True"/>
+                            <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                            <declare name="Answer" type="String" array="False" size=""/>
+                            <input variable="Answer"/>
+                            <if expression="Answer == &quot;yes&quot;">
+                                <then>
+                                    <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                    <call expression="Main"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Thank you&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="Rate &gt;=87">
+                                <then>
+                                    <output expression="&quot;The equivalent grade is 3.0&quot;" newline="True"/>
+                                    <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                                    <declare name="Answer" type="String" array="False" size=""/>
+                                    <input variable="Answer"/>
+                                    <if expression="Answer == &quot;yes&quot;">
+                                        <then>
+                                            <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                            <call expression="Main"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Thank you&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else>
+                                    <if expression="Rate &gt;=83">
+                                        <then>
+                                            <output expression="&quot;The equivalent grade is 2.5&quot;" newline="True"/>
+                                            <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                                            <declare name="Answer" type="String" array="False" size=""/>
+                                            <input variable="Answer"/>
+                                            <if expression="Answer == &quot;yes&quot;">
+                                                <then>
+                                                    <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                                    <call expression="Main"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Thank you&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </then>
+                                        <else>
+                                            <if expression="Rate &gt;=79">
+                                                <then>
+                                                    <output expression="&quot;The equivalent grade is 2.0&quot;" newline="True"/>
+                                                    <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                                                    <declare name="Answer" type="String" array="False" size=""/>
+                                                    <input variable="Answer"/>
+                                                    <if expression="Answer == &quot;yes&quot;">
+                                                        <then>
+                                                            <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                                            <call expression="Main"/>
+                                                        </then>
+                                                        <else>
+                                                            <output expression="&quot;Thank you&quot;" newline="True"/>
+                                                        </else>
+                                                    </if>
+                                                </then>
+                                                <else>
+                                                    <if expression="Rate &gt;=75">
+                                                        <then>
+                                                            <output expression="&quot;The equivalent grade is 1.5&quot;" newline="True"/>
+                                                            <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                                                            <declare name="Answer" type="String" array="False" size=""/>
+                                                            <input variable="Answer"/>
+                                                            <if expression="Answer == &quot;yes&quot;">
+                                                                <then>
+                                                                    <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                                                    <call expression="Main"/>
+                                                                </then>
+                                                                <else>
+                                                                    <output expression="&quot;Thank you&quot;" newline="True"/>
+                                                                </else>
+                                                            </if>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="Rate &gt;=70">
+                                                                <then>
+                                                                    <output expression="&quot;The equivalent grade is 1.0&quot;" newline="True"/>
+                                                                    <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                                                                    <declare name="Answer" type="String" array="False" size=""/>
+                                                                    <input variable="Answer"/>
+                                                                    <if expression="Answer == &quot;yes&quot;">
+                                                                        <then>
+                                                                            <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                                                            <call expression="Main"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <output expression="&quot;Thank you&quot;" newline="True"/>
+                                                                        </else>
+                                                                    </if>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="Rate &lt;70">
+                                                                        <then>
+                                                                            <output expression="&quot;The equivalent grade is R&quot;" newline="True"/>
+                                                                            <output expression="&quot;Would you like to start again?&quot;" newline="True"/>
+                                                                            <declare name="Answer" type="String" array="False" size=""/>
+                                                                            <input variable="Answer"/>
+                                                                            <if expression="Answer == &quot;yes&quot;">
+                                                                                <then>
+                                                                                    <output expression="&quot;Let's go back to the start&quot;" newline="True"/>
+                                                                                    <call expression="Main"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <output expression="&quot;Thank you&quot;" newline="True"/>
+                                                                                </else>
+                                                                            </if>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
